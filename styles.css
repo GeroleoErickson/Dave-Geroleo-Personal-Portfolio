@@ -629,12 +629,8 @@ nav .navlinks .links a:hover::after {
 #image-preview img{
     width: auto;
     height: 100%;
+    overflow: hidden;
 }
-
-
-/* <div id="image-preview'>
-<img src="" id="img-con-prev">
-</div> */
 
 
 .projects-section{
@@ -831,107 +827,3 @@ footer{
 }
 
 
-
-
-
-
-
-/* Scroll animations */
-/* .floating-upwards-default{
-    opacity: 0;
-    transform: translateY(400%);
-}
-
-.floating-upwards-final{
-    opacity: 1;
-    transform: translateX(0);
-} */
-
-
-.pop-card p{
-    width: 45%;
-    font-size: 1.2rem;
-    text-align: center;
-    font-family: "Questrial", sans-serif;
-    color: #ffffff;
-}
-
-.pop-card img{
-    image-rendering: auto;
-    width: 350px;
-    height: auto;
-}
-
-.pop-card button{
-    padding: .5rem 1.5rem;
-    font-family: "Poppins", serif;
-    border: none;
-    border-radius: .5rem;
-    background: linear-gradient(45deg, #ff8906 0%, #fffc00 100%);
-    font-weight: 500;
-    font-size: 1.3rem;
-    color: white;
-    cursor: pointer;
-    animation: up-down 2s ease-in-out infinite;
-}
-
-
-.thank-you{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(60px);
-    z-index: 999;
-    
-}
-
-.pop-card{
-    gap: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(60px);
-    width: 20%;
-    text-align: center;
-    padding: 2rem;
-    border-radius: 2rem;
-    transition: none;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 12px 60px 3px #00000054;
-}
-
-
-.pop-card p{
-    width: 100%;
-
-}
-
-.pop-card button{
-    animation: none;
-    width: 100%;
-}
-
-.pop-card button:hover{
-    scale: 1.05;
-}
-
-/* <div class="thank-you pop-up">
-        <div class="pop-card">
-            <img src="assets/happy-robot.png" alt="300px">
-            <p>Website building and designing is now complete. Thank you for helping me completing my final project in Web programming.</p>
-            <button>View Design</button>
-        </div>
-    </div> */
-
-/* 
-    .thank-you{
-        display: none;
-    } */
